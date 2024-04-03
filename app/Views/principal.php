@@ -8,8 +8,6 @@
    
 </head>
 <body>
-    <h1>FILMES</h1>
-
     <div class="container ht-5">
         <h3 class="text-center bg-black p-3 mb-5">Filmes</h3>
         <div class="row">
