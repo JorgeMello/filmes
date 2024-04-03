@@ -29,3 +29,31 @@ Stack trace:
 #12 C:\xampp2\htdocs\filmes\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
 #13 C:\xampp2\htdocs\filmes\spark(102): CodeIgniter\CLI\Console->run()
 #14 {main}
+ERROR - 2024-04-03 18:08:48 --> mysqli_sql_exception: Table 'filmes.cuidadores' doesn't exist in C:\xampp2\htdocs\filmes\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp2\htdocs\filmes\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp2\htdocs\filmes\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp2\htdocs\filmes\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp2\htdocs\filmes\system\Database\BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', NULL, false)
+#4 C:\xampp2\htdocs\filmes\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp2\htdocs\filmes\app\Database\Seeds\CuidadorSeeder.php(17): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp2\htdocs\filmes\system\Database\Seeder.php(145): App\Database\Seeds\CuidadorSeeder->run()
+#7 C:\xampp2\htdocs\filmes\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp2\htdocs\filmes\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp2\htdocs\filmes\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp2\htdocs\filmes\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-03 18:10:35 --> mysqli_sql_exception: Table 'filmes.cuidadores' doesn't exist in C:\xampp2\htdocs\filmes\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp2\htdocs\filmes\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp2\htdocs\filmes\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp2\htdocs\filmes\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp2\htdocs\filmes\system\Database\BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', NULL, false)
+#4 C:\xampp2\htdocs\filmes\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp2\htdocs\filmes\app\Database\Seeds\CuidadorSeeder.php(17): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp2\htdocs\filmes\system\Database\Seeder.php(145): App\Database\Seeds\CuidadorSeeder->run()
+#7 C:\xampp2\htdocs\filmes\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp2\htdocs\filmes\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp2\htdocs\filmes\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp2\htdocs\filmes\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
