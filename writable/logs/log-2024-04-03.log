@@ -57,3 +57,97 @@ Stack trace:
 #9 C:\xampp2\htdocs\filmes\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
 #10 C:\xampp2\htdocs\filmes\spark(102): CodeIgniter\CLI\Console->run()
 #11 {main}
+CRITICAL - 2024-04-03 21:42:31 --> ErrorException: Attempt to read property "nome" on array
+in APPPATH\Views\cuidador.php on line 11.
+ 1 APPPATH\Views\cuidador.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp2\\htdocs\\filmes\\app\\Views\\cuidador.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\filmes\\app\\Views\\cuidador.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cuidador', [], true)
+ 5 APPPATH\Controllers\Main.php(20): view('cuidador', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->cuidador()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 21:52:20 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Views\filmes.php on line 9.
+ 1 APPPATH\Views\filmes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('filmes', [], true)
+ 5 APPPATH\Controllers\Main.php(28): view('filmes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->filmes()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 21:54:25 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Views\filmes.php on line 9.
+ 1 APPPATH\Views\filmes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('filmes', [], true)
+ 5 APPPATH\Controllers\Main.php(28): view('filmes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->filmes()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 21:54:44 --> ErrorException: Attempt to read property "nome" on array
+in APPPATH\Views\filmes.php on line 10.
+ 1 APPPATH\Views\filmes.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('filmes', [], true)
+ 5 APPPATH\Controllers\Main.php(28): view('filmes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->filmes()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 21:55:38 --> Error: Undefined constant "App\Models\id"
+in APPPATH\Controllers\Main.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->filmes()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 21:57:36 --> ErrorException: Attempt to read property "nome" on array
+in APPPATH\Views\filmes.php on line 10.
+ 1 APPPATH\Views\filmes.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('filmes', [], true)
+ 5 APPPATH\Controllers\Main.php(28): view('filmes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->filmes()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 22:00:10 --> ErrorException: Attempt to read property "nome" on array
+in APPPATH\Views\filmes.php on line 10.
+ 1 APPPATH\Views\filmes.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('filmes', [], true)
+ 5 APPPATH\Controllers\Main.php(30): view('filmes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->filmes()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 22:05:57 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Views\filmes.php on line 12.
+ 1 APPPATH\Views\filmes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('filmes', [], true)
+ 5 APPPATH\Controllers\Main.php(30): view('filmes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->filmes()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 22:08:09 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Views\filmes.php on line 12.
+ 1 APPPATH\Views\filmes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp2\\htdocs\\filmes\\app\\Views\\filmes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('filmes', [], true)
+ 5 APPPATH\Controllers\Main.php(30): view('filmes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->filmes()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

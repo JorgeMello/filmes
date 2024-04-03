@@ -1,21 +1,18 @@
 <?= $this->extend('principal') ?>
 <?= $this->section('conteudo') ?>
-   <h1 class="text-center">FILMES</h1>
-   <hr>
-   <table class="table table-striped">
+<h1 class="text-center">FILMES</h1>
+<hr>
+<?php 
+//dd($filmes);
+?>
+<table class="table table-striped">
     <tbody>
-        <tr>
-            <th>Nome</th>
-            <td><?= $cuidador->nome ?></td>
-        </tr>
-        <tr>
-            <th>CPF</th>
-            <td><?= $cuidador->cpf ?></td>
-        </tr>
-        <tr>
-            <th>RG</th>
-            <td><?= $cuidador->rg ?></td>
-        </tr>
+        <?php foreach ($filmes as $filme) : ?>
+            <tr>
+                <td><?= $filme->id ?></td>
+                <td><?= $filme->nome ?></td>
+            </tr>
+        <?php endforeach; ?>
     </tbody>
-   </table>
+</table>
 <?= $this->endSection() ?>
